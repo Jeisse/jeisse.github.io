@@ -1,0 +1,28 @@
+{
+  "name": "frontend-nanodegree-mobile-portfolio",
+  "version": "1.0.0",
+  "description": "Project to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jeisse/frontend-nanodegree-mobile-portfolio"
+  },
+  "author": "Jeisse Rocha",
+  "license": "AFL-3.0",
+  "bugs": {
+    "url": "na"
+  },
+  "homepage": "http://jeisse.github.io/",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-cssmin": "^0.1.6",
+    "gulp-htmlmin": "^1.0.0",
+    "gulp-imagemin": "^2.1.0",
+    "gulp-inline": "0.0.8",
+    "gulp-minify-inline": "^0.1.0",
+    "gulp-uglify": "^1.1.0"
+  }
+}
