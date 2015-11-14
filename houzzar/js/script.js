@@ -1,12 +1,1 @@
-/*!
- * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2014 Start Bootstrap
- * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
- */
-
-// Contact Form Scripts
-
-$(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).parent().addClass("active");
-});
+var housemates={housemate:[{name:"Stanistaw",image:"img/coment.png",date:"01/01/2015",comment:"Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, beatae vitae dicta sunt explicabo..."},{name:"Fulano",image:"img/coment.png",date:"11/11/2014",comment:"Sed ut perspiciatis unde omnis iste natus error sit, eaque ipsa quae ab illo inventore veritatis et quasi architecto..."},{name:"Anjoran",image:"img/coment.png",date:"08/30/2015",comment:"Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo..."}]};$(".nav a").on("click",function(){$(".nav").find(".active").removeClass("active"),$(this).parent().addClass("active")}),$("#mapDiv").append(googleMap),housemates.display=function(){$.each(housemates.housemate,function(e,a){var t=HTMLhousemaste.replace("%image%",a.image),t=t.replace("%name%",a.name),t=t.replace("%date%",a.date),t=t.replace("%comment%",a.comment);$(".housemastes-mod").append(t)});for(var e in housemates.housemate);},housemates.display();
